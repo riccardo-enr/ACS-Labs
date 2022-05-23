@@ -6,3 +6,7 @@
 - $a_3$ not used
 - $a_2 = -400 \; rad/s^2$
 - $a_1 = -420 \; rad/s^2$
+
+## Pressure slopes
+
+
