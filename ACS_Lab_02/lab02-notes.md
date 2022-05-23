@@ -14,14 +14,20 @@ Pressure slopes are already defined as a start.
 
 Acceleration thresholds are in $rad/s^2$ and pressure slopes are in $MPa/s$.
 
-### Additional constraint
+Do not change the folder when using send to Simulink, work in the original folder, the one there is when Matlab is opened by Carsim.
+
+## Additional constraint
 Add it later if all works correctly by just tuning the thresholds.
+
+
 
 ## Pressure slopes
 
 ---
 
 # What to do in Lab
+1. Upload saved parsfile.
+2. Remember to upload modified parsfile later.
 ## Git commands
 
 
