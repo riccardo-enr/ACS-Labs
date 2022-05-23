@@ -16,9 +16,30 @@ Acceleration thresholds are in $rad/s^2$ and pressure slopes are in $MPa/s$.
 
 Do not change the folder when using send to Simulink, work in the original folder, the one there is when Matlab is opened by Carsim.
 
-## Additional constraint
+## Controller description
+
+Right wheels on asphalt, left wheels on snow (low $\mu$).
+
+### Additional constraint
 Add it later if all works correctly by just tuning the thresholds.
 
+On if the flag `AdCo = 1`, Off if 0. 
+
+### Professor thresholds
+Taken from video, maybe wrong.
+
+- $a_4 = 150$
+- $a_2 = -200$
+- $a_1 = -220$
+
+## Plot analysis
+- Dashed blue: Vehicle velocity
+- Solid blue: Wheel velocity
+- Solid red: Mode (scaled)
+- Dashed red: Signal from additional constraint
+- Black: Signal acceleration
+- Dashed green: Command braking pressure
+- Green: Braking pressure on the wheel
 
 
 ## Pressure slopes
