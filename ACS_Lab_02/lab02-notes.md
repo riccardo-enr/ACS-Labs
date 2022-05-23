@@ -2,10 +2,10 @@
 
 ## Thresholds
 
-- $a_4 = 200 \; rad/s^2$
+- $a_4 = 200 \quad rad/s^2$
 - $a_3$ not used
-- $a_2 = -400 \; rad/s^2$
-- $a_1 = -420 \; rad/s^2$
+- $a_2 = -400 \quad rad/s^2$
+- $a_1 = -420 \quad rad/s^2$
 
 # Lab02.3 - Notes
 
@@ -40,6 +40,8 @@ Taken from video, maybe wrong.
 - Black: Signal acceleration
 - Dashed green: Command braking pressure
 - Green: Braking pressure on the wheel
+
+Take a look at wheel speed and if it doesn't block the the thresholds chosen are good.
 
 
 ## Pressure slopes
